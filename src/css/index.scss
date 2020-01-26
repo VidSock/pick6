@@ -5,7 +5,7 @@
 @import url("animate.css");
 @import url("custom.css");
 
-$primary: #dd4000;
+$primary: #C82C10;
 $red: #ff0000;
 
 
@@ -108,11 +108,8 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background-color: $primary;
   
-background: #dd4000;
-background: -moz-linear-gradient(left,  #dd4000 0%, #db6334 60%, #db967a 100%);
-background: -webkit-linear-gradient(left,  #dd4000 0%,#db6334 60%,#db967a 100%);
-background: linear-gradient(to right,  #dd4000 0%,#db6334 60%,#db967a 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd4000', endColorstr='#db967a',GradientType=1 );
+background: #C82C10;
+
   
   outline: 3px solid #999;
   border:1px solid #777;
@@ -239,20 +236,13 @@ main{min-height: 60vh;}//force v-scroll
 
 
 .grad{
-background: #db754c;
-background: -moz-radial-gradient(center, ellipse cover,  #db754c 14%, #dd4000 100%);
-background: -webkit-radial-gradient(center, ellipse cover,  #db754c 14%,#dd4000 100%);
-background: radial-gradient(ellipse at center,  #db754c 14%,#dd4000 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db754c', endColorstr='#dd4000',GradientType=1 );
+background: #C82C10;
+
 
 
 }
 .grad:hover{
-background: #db754c;
-background: -moz-radial-gradient(center, ellipse cover,  #db754c 14%, #bf4600 100%);
-background: -webkit-radial-gradient(center, ellipse cover,  #db754c 14%,#bf4600 100%);
-background: radial-gradient(ellipse at center,  #db754c 14%,#bf4600 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db754c', endColorstr='#bf4600',GradientType=1 );
+background: #C82C18;
 
 
 

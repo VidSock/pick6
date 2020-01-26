@@ -21,17 +21,17 @@ import Intro2 from '../Intro2'
 const CustomBox = styled.div`
 *, *:before, *:after { box-sizing: border-box; }
 
-.intro:before{
-	content: "Todd Leads A Dual-Life";
-position:absolute;
-display: flex;
-align-items: center;
-justify-content: center;
-font-size:280%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
-animation: poof 1.5s forwards;
-animation-delay: 1.5s;
-top:0 !important;
-}
+// .intro:before{
+// 	content: "Todd Leads A Dual-Life";
+// position:absolute;
+// display: flex;
+// align-items: center;
+// justify-content: center;
+// font-size:280%; color:#f8f8fc; text-shadow: 12px 7px 15px 12px black;
+// animation: poof 1.5s forwards;
+// animation-delay: 1.5s;
+// top:0 !important;
+// }
 
 .image-wrap {
   width: 100%;
