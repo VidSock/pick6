@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from 'react-helmet'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 // import Gallery1 from '../components/Gallery1'
 // import Navbar from '../components/Navbar'
 import config from '../../config'
@@ -143,7 +143,7 @@ const TemplateWrapper = ({ children }) => {
 
 
    
-      {/* <Footer /> */}
+      <Footer />
       </>
     
   )

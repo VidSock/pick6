@@ -166,7 +166,7 @@ const HomePageTemplate = ({
 
 <h1 className='title' style={{textAlign:'',}}>{title}</h1>
         
-<div className="content" style={{margin:'0 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
+<div className="content" style={{margin:'2% 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
 
 <h3 className="" style={{textAlign:'',}}>
 {heading}
@@ -195,7 +195,7 @@ const HomePageTemplate = ({
 
 
 <div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px'}}>
-<iframe  width="100%" height="350" frameborder="0" allowfullscreen="false" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
+<iframe  width="100%" height="350" frameBorder="0" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
 </div> 
 
 
