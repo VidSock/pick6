@@ -91,7 +91,7 @@ const HomePageTemplate = ({
     <Helmet>
       <title>{meta_title}</title>
       <meta name='description' content={meta_description} />
-      <html className="fullhead" />
+      <html className="full-head" />
     </Helmet>
     
     
@@ -105,7 +105,7 @@ const HomePageTemplate = ({
 {/* <Intro1 /> */}
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
-<Intro2 />
+
 <section className="section split" style={{display:'flex', padding:'2%', position:'relative',}}>
 
 
@@ -140,31 +140,14 @@ const HomePageTemplate = ({
 
 <ScrollAnimation animateIn="bounceInRight" delay={0}>
 
-<div className="container content" style={{margin:'0 0 1rem 0', padding:'2% 0', borderRadius:'10px',}}>
-<h3 className="logotype" style={{textAlign:'center', fontSize:'180%',}}>
-Network
-</h3>
-</div>
 
 
 
 
-    <a href="https://twilightscapes.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>
-    <Image className="" alt="Todd Lambert Night photos" filename="twilightscapes-button.jpg" />
-    <br />
-    Experience a new style of landscape photography. Explore the unusual and see the Western States all through the eyes of Todd Lambert.
-    <h5 style={{textAlign:'center',}}>Visit Twilightscapes.com</h5></a>
-    
-    <br />
-    <br />
- 
+
+    <iframe width="100%" height="350" src="http://www.owgr.com/Global/Widgets/Left/SharingRankingTableWidget.aspx?country=&continent="frameborder="0" allowfullscreen="false"></iframe>
     
     
-    <a href="https://urbanfetish.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', color:'inherit',}}>
-    <Image className="" alt="Todd Lambert Night photos" filename="urban-fetish-button.jpg" />
-    <br />
-    Take a walk on the wild side and follow along as Todd Lambert goes in search of the creepiest, freakiest, spookiest abandoned locations you can find anywhere.    
-    <h5 style={{textAlign:'center',}}>Visit UrbanFetish.com</h5></a>
     </ScrollAnimation>
     </div>
     </div>
@@ -174,11 +157,11 @@ Network
 
 </section>
 
-<ScrollAnimation animateIn="bounceInUp" delay={0}>
+
 <div className="outer">
     <Contact className="container contactform" />
 </div>
-</ScrollAnimation>
+
 <br />
     
     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import SearchBox from '../components/SearchBox'
-import logo from '../img/tw-logo-white.svg'
+import logo from '../img/pick6golf-logo-square.svg'
 import Headroom from "react-headroom"
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -143,8 +143,10 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 <Headroom style={{ zIndex: '5', }}>
     <header className="header" style={{position:'relative',}}>
     
-    <Link to="/" className="logolink" title="Logo - Back To Home" style={{textDecoration:'none',}}>
-    <span className="logofirst">todd</span> <span className="logocolor">lambert</span>
+  
+    
+    <Link to="/" className="logolink" title="Logo - Back To Home">
+    <img className="logo fadeInDown" src={logo} alt="Twilightscapes Logo" />
     </Link>
     
     
@@ -156,91 +158,7 @@ const NavBar = ({ toggleNavbar, isActive }) => (
 <input className="menu-btn" type="checkbox" id="menu-btn" />
 <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
 
-            <ul id="menu" className="menu">
-            
-            
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/portfolio" style={{paddingRight:'',}}>
-                Portfolio 
-              </Link>
-              </li>
-              
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/resume" style={{paddingRight:'',}}>
-                Resume 
-              </Link>
-              </li>
-              
-              
-               {/* <li className="grad" style={{position:'relative',}}>
-                             <Link id="galleries" className="navbar-item" to="/galleries"  style={{paddingRight:'',}}>
-                              Photography 
-                             </Link>
-                             </li> */}
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/about" style={{paddingRight:'',}}>
-                About 
-              </Link>
-              </li>
-              
-              <li className="grad" style={{position:'relative',}}>
-              <Link className="navbar-item" to="/blog" style={{paddingRight:'',}}>
-                Blog 
-              </Link>
-              </li>
-              
-              
-              {/*<li style={{position:'relative',}}>
-              <Link id="vault" className="navbar-item" to="/vault" style={{paddingRight:'50px',}}>
-                The Vault <AiFillBank className="txtshadow" style={{fontSize:'30px', position:'absolute', right:'10px', top:'15px',}}/>
-              </Link>
-              </li>*/}
-              
-            
-            {/* <li className="grad" style={{position:'relative',}}>
-                          <Link className="navbar-item" to="/about" style={{paddingRight:'',}}>
-                            About 
-                          </Link>
-                          </li> */}
-              
-              
-              
-              
-              
-              {/* <li>
-              <Link className="navbar-item" to="/products">
-                How We Do It
-              </Link>
-              </li> */}
-              
-              
-              
-              
-              
-              
-              
-              
-
-
-              {/*<li style={{position:'',}}>
-             
-             <label className="modal-btn grad" htmlFor="modal-toggle" style={{position:'relative', textShadow: '1px 0px 2px white', paddingRight:'',}}>Contact </label> 
-             
-              </li>*/}
-              
-              
-              <li style={{display:'',}}>
-             
-             <label className="modal-btn grad" htmlFor="semitoggle" style={{position:'relative', textShadow: '1px 2px 0px black', paddingRight:'8px',}}> <FaSearch className="contact-icon txtshadow" style={{fontSize:'23px', position:'relative', right:'', top:'10px',}}/></label> 
-             
-              </li>
-              
-              
-              
-            </ul>
+           
             
             
       

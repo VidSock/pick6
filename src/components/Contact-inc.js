@@ -75,9 +75,9 @@ export default class Contact extends React.Component {
                 id="contact-inc-form"
               >
 
-<h2 className="logotype" style={{textAlign:'center', fontSize:'180%',}}>
-Contact
-</h2>
+<h3 className="" style={{textAlign:'center', fontSize:'180%',}}>
+Pick 6 Golfers
+</h3>
 
                
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
@@ -89,7 +89,7 @@ Contact
                   </label>
                   <label htmlFor="form-name">upload</label><input type="hidden" name="form-name" value="file-upload" />
                 </div>
-
+                
                 <div className="form">
                 <div className="field half left">
                 <label htmlFor="name" style={{padding: '0', margin: '0',}}>Your name:</label>
@@ -102,61 +102,130 @@ Contact
                       required={true}
                       placeholder="Name"
                     />
+                </div>
+                
+                <div className="field half right">
                 <label htmlFor="email" style={{padding: '0', margin: '0',}}>Your email:</label>
-                    <input
-                      className="input"
-                      type={'email'}
-                      name={'email'}
-                      onChange={this.handleChange}
-                      id={'email'}
-                      required={true}
-                      placeholder="your@email.com"
-                    />
-                    <label htmlFor="attachment" style={{padding: '0', margin: '0',}}>Upload file:</label>
-                    <div className="upload" style={{ border: '0px solid', padding: '12px', borderRadius: '5px', boxShadow: '0px 0px 1px 1px #999', color: '#999',}}>
-                    <label htmlFor="attachment" style={{padding: '0', margin: '0 2.5% 0 0', float: 'left', width: '58%', color: '#333',}}>
-                    ZIP files preferred
-                    <input
-                        className="file-input hidden"
-                        type="file"
-                        id="attachment"
-                        name="attachment"
-                        onChange={this.handleAttachment}
-                      />
-                      </label>
-                      
-<label className="upload" htmlFor="attachment" style={{background: '#eee', width: '48%', justifyContent: 'center', color: '#333', padding: '5px 15px', textAlign: 'center', borderRadius:'4px', margin: '0 auto', fontSize: '70%', whiteSpace: 'nowrap',}}  >Select file</label></div>
+                  <input
+                    className="input"
+                    type={'email'}
+                    name={'email'}
+                    onChange={this.handleChange}
+                    id={'email'}
+                    required={true}
+                    placeholder="your@email.com"
+                  />
+                </div>
+                </div>
+
+
+
+
+
+                <div className="form">
+                <div className="field half left">
+                
+              
+                    <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 1:</label>
+              <input
+                className="input"
+                type={'text'}
+                name={'golfer1'}
+                onChange={this.handleChange}
+                id={'golfer1'}
+                required={true}
+                placeholder="Golfer 1"
+              />
+              
+               <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 2:</label>
+                 <input
+                   className="input"
+                   type={'text'}
+                   name={'golfer2'}
+                   onChange={this.handleChange}
+                   id={'golfer2'}
+                   required={true}
+                   placeholder="Golfer 2"
+                 />
+              
+               <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 3:</label>
+              <input
+                className="input"
+                type={'text'}
+                name={'golfer3'}
+                onChange={this.handleChange}
+                id={'golfer3'}
+                required={true}
+                placeholder="Golfer 3"
+              />
+                   
                 </div>
 
                 <div className="field half right">
-<label className="label" htmlFor={'message'} style={{padding: '0', margin: '0',}}>
-                    Your message
-                  </label>
-                    <textarea
-                      className="textarea"
-                      name={'message'}
+                  
+                  
+                  
+ <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 4:</label>
+                  <input
+                    className="input"
+                    type={'text'}
+                    name={'golfer4'}
+                    onChange={this.handleChange}
+                    id={'golfer4'}
+                    required={true}
+                    placeholder="Golfer 4"
+                  />
+                    
+                    
+                     <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 5:</label>
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'golfer5'}
                       onChange={this.handleChange}
-                      id={'message'}
+                      id={'golfer5'}
                       required={true}
-                      placeholder="Message"
+                      placeholder="Golfer 5"
                     />
                     
+                     <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 6:</label>
+                    <input
+                      className="input"
+                      type={'text'}
+                      name={'golfer6'}
+                      onChange={this.handleChange}
+                      id={'golfer6'}
+                      required={true}
+                      placeholder="Golfer 6"
+                    />
 
                       
                   </div>
                   </div>
                 
-                <div style={{fontSize: '70%', padding: '0 3%', margin: '0 0 1rem 0', textAlign: 'center',}}> <label htmlFor={'consent'}><input type="checkbox"  name={'consent'} required={true} style={{transform: 'scale(2)', margin: '0 10px 0 0', padding: '0',}} />  I want to communicate by email or text.</label></div>
+                
+                <div className="form field" style={{marginRight:'20px', display:'block',}}>
+                <label htmlFor="name" style={{padding: '0', margin: '0',}}>Pick-A-Player:</label>
+                   <input
+                     className="input"
+                     type={'text'}
+                     name={'golfer6'}
+                     onChange={this.handleChange}
+                     id={'golfer6'}
+                     required={true}
+                     placeholder="Golfer 6"
+                   />
+                </div>
                
 <div className="special grad"  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', width:'230px', margin:'0 auto', padding:'0 1rem 0px 1rem',}}>
                 
-                <input type="submit" value="Send Message" className=" grad" style={{background:'transparent', border:'none', color:'#fff', cursor:'pointer', width:'90%', float:'left',}} />
-                <FaEnvelope style={{position: 'relative', top: '5px', right: '-5px', color: '#fff', fontSize: '120%',}} />
+                <input type="submit" value="Send Picks" className=" grad" style={{background:'transparent', border:'none', color:'#fff', cursor:'pointer', width:'90%', float:'left',}} />
+                
                 
                 </div>
                 
-                <div style={{fontSize: '70%', padding: '0px 3%', marginTop:'20px', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0', paddingBottom: '0', textDecoration: 'underline', color:'inherit',}} href="/privacy">Privacy policy</a>
-                </div>
+                {/* <div style={{fontSize: '70%', padding: '0px 3%', marginTop:'20px', textAlign: 'center',}}><a style={{textAlign: 'center', paddingTop: '0', paddingBottom: '0', textDecoration: 'underline', color:'inherit',}} href="/privacy">Privacy policy</a>
+                </div> */}
                 
                 
                 

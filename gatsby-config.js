@@ -4,7 +4,7 @@ const pathPrefix = config.pathPrefix === '/' ? '' : config.pathPrefix
 
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://toddlambert.netlify.com',
+  URL: NETLIFY_SITE_URL = 'https://pick6golf.netlify.com',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV,
 } = process.env
@@ -119,7 +119,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         enableIdentityWidget: true,
-        htmlTitle: `Gatsby Starter Business Content Manager`,
+        htmlTitle: `Pick 6 Golf Content Manager`,
       },
     },
 
