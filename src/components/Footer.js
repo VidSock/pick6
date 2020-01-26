@@ -15,7 +15,7 @@ import vimeo from '../img/social/vimeo.svg'
 
 
 
-var masters = new Date(2020,0, 20);
+{/* var masters = new Date(2020,0, 20);
   var today = new Date();
   if (today>= masters){
     document.body.className += ' masters';
@@ -34,7 +34,7 @@ var pga = new Date(2020,4, 19);
   var today = new Date();
   if (today>= theopen){
     document.body.className += ' theopen';
- }
+ } */}
 
 
 
