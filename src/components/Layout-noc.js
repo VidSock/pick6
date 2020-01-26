@@ -133,7 +133,7 @@ const TemplateWrapper = ({ children }) => {
       </Helmet>
       
  
-      <Navbar />
+      {/* <Navbar /> */}
       <PopContact />
   
       <main>{children}</main>

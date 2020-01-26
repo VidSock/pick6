@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
+import logo from '../../img/pick6golf-logo-square.svg'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
@@ -106,11 +107,49 @@ const HomePageTemplate = ({
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
 
+<ScrollAnimation animateIn="fadeIn">
+<div className="outer">
+  
+<div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'60px', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
+  
+
+ <div className="" style={{position:'absolute', top:'0px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'1',}}>
+  
+  
+
+   
+
+  
+  
+  
+  <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', top:'0', paddingTop:'0', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center',}}>
+  <div style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)'}}>
+         <img className="logo fadeInDown" src={logo} alt="Twilightscapes Logo" style={{maxHeight:'300px'}} />
+         </div>
+        </ScrollAnimation>
+
+        
+        </div>
+        
+        
+        
+
+
+        
+        
+        
+    
+
+</div>
+</div>
+</ScrollAnimation>
+
+
 <section className="section split" style={{display:'flex', padding:'2%', position:'relative',}}>
 
 
 
-<ScrollAnimation animateIn="bounceInLeft" delay={0}>
+
 <div className='container innerpanel' style={{padding:'2% 3%', borderRadius:'12px',}}>
 
 <h1 className='title' style={{textAlign:'center',}}>{title}</h1>
@@ -128,7 +167,7 @@ const HomePageTemplate = ({
 
 
 </div>
-</ScrollAnimation>
+
 
 <div className="sidebar" style={{padding:'1%', minWidth:'35%', maxWidth:'35%', marginLeft:'2%',}}>
     
@@ -138,7 +177,6 @@ const HomePageTemplate = ({
 
 
 
-<ScrollAnimation animateIn="bounceInRight" delay={0}>
 
 
 
@@ -148,7 +186,7 @@ const HomePageTemplate = ({
     <iframe width="100%" height="350" src="http://www.owgr.com/Global/Widgets/Left/SharingRankingTableWidget.aspx?country=&continent="frameborder="0" allowfullscreen="false"></iframe>
     
     
-    </ScrollAnimation>
+
     </div>
     </div>
 
