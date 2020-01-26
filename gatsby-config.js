@@ -129,7 +129,7 @@ module.exports = {
       options: {
         name: config.siteTitle,
         short_name: config.siteTitleAlt,
-        start_url: '/index.html',
+        start_url: '/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'standalone',
