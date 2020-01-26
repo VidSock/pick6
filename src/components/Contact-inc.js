@@ -203,7 +203,7 @@ Pick 6 Golfers
                   </div>
                   </div>
                 
-                <hr />
+                
                 <div className="form field" style={{marginRight:'20px', display:'block',}}>
                 <label htmlFor="name" style={{padding: '0', margin: '0',}}>Pick-A-Player:</label>
                    <input
@@ -216,7 +216,8 @@ Pick 6 Golfers
                      placeholder="Pick-A-Player"
                    />
                 </div>
-           
+           <hr />
+          
 <div className="special grad"  style={{color:'#fff', textDecoration:'none', display:'flex', justifyContent:'center', position:'relative', width:'230px', margin:'0 auto', padding:'0 1rem 0px 1rem',}}>
                 
                 <input type="submit" value="Send Picks" className=" grad" style={{background:'transparent', border:'none', color:'#fff', cursor:'pointer', width:'90%', float:'left',}} />

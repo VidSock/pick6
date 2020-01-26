@@ -15,7 +15,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 // import { Link } from 'gatsby'
 import styled from 'styled-components'
 // import Intro1 from '../Intro1'
-import Intro2 from '../Intro2'
+// import Intro2 from '../Intro2'
 // import Intro3 from '../Intro3'
 
 const CustomBox = styled.div`
@@ -132,7 +132,7 @@ const HomePageTemplate = ({
   
   <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'5%', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
   
-  <div style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
+  <div className="container innerpanel" style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
      <img className="logo" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
      </div>
     </ScrollAnimation>
@@ -163,11 +163,11 @@ const HomePageTemplate = ({
 
 <div className='container innerpanel' style={{padding:'2% 3%', borderRadius:'12px',}}>
 
-<h1 className='title' style={{textAlign:'center',}}>{title}</h1>
+<h1 className='title' style={{textAlign:'',}}>{title}</h1>
         
 <div className="content" style={{margin:'0 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
 
-<h3 className="" style={{textAlign:'center',}}>
+<h3 className="" style={{textAlign:'',}}>
 {heading}
 </h3>
 
@@ -193,7 +193,7 @@ const HomePageTemplate = ({
 
 
 
-<div style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px'}}>
+<div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px'}}>
 <iframe  width="100%" height="350" frameborder="0" allowfullscreen="false" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
 </div> 
 
