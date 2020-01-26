@@ -6,11 +6,7 @@ description: 'Welcome to the all-new Pick 6 Golf website. '
 offerings:
   blurbs: []
 testimonials: []
-meta_title: Todd Lambert | Frontend Web Developer and Night Photographer
-meta_description: >-
-  Ultra-fast websites that use state-of-the-art technology, are modern designed
-  and 100% flexible to work great everywhere.
-
-  Let Todd build your site today!
+meta_title: Pick 6 Golf - Pick your best 6 golfers
+meta_description: 'A friendly contest dedicated to picking the best golfers in tournaments. '
 ---
 
