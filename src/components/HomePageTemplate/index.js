@@ -162,7 +162,7 @@ const HomePageTemplate = ({
 
 
 
-<div className='container innerpanel' style={{padding:'2% 3%', borderRadius:'12px',}}>
+<div className=' container split innerpanel' style={{width:'60%', padding:'2% 3%', borderRadius:'12px',}}>
 
 <h1 className='title' style={{textAlign:'',}}>{title}</h1>
         
@@ -181,7 +181,7 @@ const HomePageTemplate = ({
 </div>
 
 
-<div className="sidebar" style={{padding:'1%', minWidth:'50%', marginLeft:'2%',}}>
+<div className="sidebar split" style={{padding:'1%', width:'40%', marginLeft:'2%',}}>
   
   <div style={{position:'sticky', top:'30px', }}>
 
