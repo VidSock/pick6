@@ -204,7 +204,7 @@ Pick 6 Golfers
                   </div>
                 
                 
-                <div className="form field" style={{marginRight:'20px', display:'block',}}>
+                <div className="form field picka" style={{marginRight:'20px', display:'block', padding:'0 20%',}}>
                 <label htmlFor="name" style={{padding: '0', margin: '0',}}>Pick-A-Player:</label>
                    <input
                      className="input"
