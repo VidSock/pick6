@@ -445,13 +445,13 @@ div.column{ padding:0 0rem !important;  animation: fadeIn 3s;}
 
 footer{background-color: #222; padding:.1rem 0rem;  animation: fadeIn 3s; border-radius: 20px 20px 0px 0px;}
 .socialmenu{display: flex; flex-wrap: nowrap; list-style-type: none;}
-.socialmenu li{padding:10px; background:#000; border:1px solid #999; border-radius:10px;}
+.socialmenu li{padding:10px; background:#000; border:1px solid #444 !important; border-radius:10px; margin:0 .2rem;}
 .social{font-size: 300%; margin:.25rem 1rem .25rem 0; justify-content:baseline;}
 .social span{display: none;}
 .socialtext{font-size: 120%; padding:0 0 0 0; margin:0 1rem 0 0; transform: rotate(-14deg); /* transform: rotate3d(1, 1, 1, -20deg); */}
 
 
-body.masters li.masters, body.pga li.pga, body.usopen li.usopen, body.theopen li.theopen{color:#333;}
+body.masters li.masters, body.pga li.pga, body.usopen li.usopen, body.theopen li.theopen{color:#333 !important; }
 
 
 

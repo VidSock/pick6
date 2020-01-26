@@ -52,7 +52,7 @@ const Footer = class extends React.Component {
 
 <br />
 <h3 style={{textAlign:'center'}}>2020 Tournaments</h3>
-<ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:'1rem'}}>
+<ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:''}}>
 <li className="masters">The Masters<br /><br />Apr 11 - 14<br /><br />Augusta, GA, United States</li>
 <li className="pga">PGA Championship<br /><br />May 16 - 19<br /><br />Bethpage, New York, United States</li>
 <li className="usopen">U.S. Open<br /><br />June 13 - 16<br /><br />Pebble Beach, California, United States</li>
@@ -61,6 +61,8 @@ const Footer = class extends React.Component {
 
 </ul>
 
+<br />
+<br />
 {/* <div style={{textAlign: 'center', margin: '2rem 0 1rem 0', justifyContent: 'center', fontSize: '90%'}}><Link to="/disclaimer/">Disclaimer</Link>  |  <Link to="/privacy/">Privacy Policy</Link>  |  <Link to="/terms/">Terms of Service</Link></div> */}
 
 
