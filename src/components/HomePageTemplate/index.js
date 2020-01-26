@@ -47,6 +47,14 @@ const CustomBox = styled.div`
 }
 
 
+iframe:before{
+  content: " poop ";
+position:absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+top:0 !important;
+}
 
 
 @media (min-width: 48em) {
@@ -89,13 +97,14 @@ const HomePageTemplate = ({
 
 }) => (
 <>
-    <Helmet>
-      <title>{meta_title}</title>
-      <meta name='description' content={meta_description} />
-      <html className="full-head" />
-    </Helmet>
-    
-    
+  <Helmet>
+    <title>{meta_title}</title>
+    <meta name='description' content={meta_description} />
+    <html className="full-head" />
+    <script src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=optimized&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=1&showtotalpoints=1&showsponsor=1&tour=pga-tour&limit=20"></script>
+  </Helmet>
+  
+  
 
 
 
@@ -125,22 +134,22 @@ const HomePageTemplate = ({
   <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
   
   <div style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
-         <img className="logo fadeInDown" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
-         </div>
-        </ScrollAnimation>
+     <img className="logo fadeInDown" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
+     </div>
+    </ScrollAnimation>
 
-        
-        
-        </div>
-        
-        
-        
-
-
-        
-        
-        
     
+    
+    </div>
+    
+    
+    
+
+
+ 
+    
+    
+  
 
 </div>
 </div>
@@ -148,16 +157,75 @@ const HomePageTemplate = ({
 
 
 
+<section className="section split" style={{display:'flex', padding:'2%', position:'relative',}}>
 
 
-<div className="outer">
-    <Contact className="container contactform" />
+
+
+<div className='container innerpanel' style={{padding:'2% 3%', borderRadius:'12px',}}>
+
+<h1 className='title' style={{textAlign:'center',}}>{title}</h1>
+        
+<div className="content" style={{margin:'0 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
+
+<h3 className="" style={{textAlign:'center',}}>
+{heading}
+</h3>
+
 </div>
 
-<br />
-    
-    </div>
-    </CustomBox>
+{description}
+
+
+
+</div>
+
+
+<div className="sidebar" style={{padding:'1%', minWidth:'50%', marginLeft:'2%',}}>
+  
+  <div style={{position:'sticky', top:'30px', }}>
+
+
+
+
+
+
+
+
+
+
+<div style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px'}}>
+<iframe  width="100%" height="350" frameborder="0" allowfullscreen="false" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
+</div> 
+
+
+
+  
+  
+
+  </div>
+  </div>
+
+
+
+
+</section>
+
+
+  
+  </div>
+  
+  <div className="outer" style={{position:'relative', zIndex:'1'}}>
+    <Contact className="container contactform" />
+  </div>
+  
+  <br />
+  
+  
+  </CustomBox>
+  
+
+  
   </>
 )
 
@@ -168,7 +236,7 @@ HomePageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   offerings: PropTypes.shape({
-    blurbs: PropTypes.array,
+  blurbs: PropTypes.array,
   }),
   testimonials: PropTypes.array,
 
