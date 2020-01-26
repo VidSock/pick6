@@ -122,12 +122,14 @@ const HomePageTemplate = ({
   
   
   
-  <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center',}}>
-  <div style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)'}}>
-         <img className="logo fadeInDown" src={logo} alt="Twilightscapes Logo" style={{maxHeight:'300px'}} />
+  <ScrollAnimation animateIn="fadeIn" delay={1400} offset={0} style={{position:'relative', paddingTop:'0', overflow:'hidden', width:'100%', display:'flex', justifyContent:'center', verticalAlign:'center', alignContent:'center', alignItems: 'center',}}>
+  
+  <div style={{padding:'1rem', backgroundColor:'#fff', width:'50%', borderRadius:'10px', filter:'blur(0px)',}}>
+         <img className="logo fadeInDown" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
          </div>
         </ScrollAnimation>
 
+        
         
         </div>
         
@@ -145,55 +147,7 @@ const HomePageTemplate = ({
 </ScrollAnimation>
 
 
-<section className="section split" style={{display:'flex', padding:'2%', position:'relative',}}>
 
-
-
-
-<div className='container innerpanel' style={{padding:'2% 3%', borderRadius:'12px',}}>
-
-<h1 className='title' style={{textAlign:'center',}}>{title}</h1>
-              
-<div className="content" style={{margin:'0 1% 0 0', padding:'2% 0', borderRadius:'12px',}}>
-
-<h3 className="" style={{textAlign:'center',}}>
-{heading}
-</h3>
-
-</div>
-
-{description}
-
-
-
-</div>
-
-
-<div className="sidebar" style={{padding:'1%', minWidth:'35%', maxWidth:'35%', marginLeft:'2%',}}>
-    
-    <div style={{position:'sticky', top:'30px', }}>
-
-
-
-
-
-
-
-
-
-
-
-    <iframe width="100%" height="350" src="http://www.owgr.com/Global/Widgets/Left/SharingRankingTableWidget.aspx?country=&continent="frameborder="0" allowfullscreen="false"></iframe>
-    
-    
-
-    </div>
-    </div>
-
-
-
-
-</section>
 
 
 <div className="outer">
