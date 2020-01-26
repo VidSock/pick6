@@ -57,7 +57,7 @@ const Install = () => (
 	
 	<h4 style={{textAlign:'center', fontSize:'140%',}}>Install App</h4>
 	<br />
-	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to get added features on-the-go, like exclusive content, fullscreen and offline capability.</span>
+	<span style={{fontSize:'100%',}}>This website has app functionality. Add it to your home screen to install it. Never have to go to the website again!</span>
 	<br /><br />
 	<div style={{fontSize:'80%', textAlign:'center',}}>On your device, locate the browser menu:</div>
 	<br />
