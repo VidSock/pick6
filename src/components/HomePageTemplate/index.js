@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import logo from '../../img/pick6golf-logo-square.svg'
+import Install from '../Install'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
@@ -223,7 +224,7 @@ const HomePageTemplate = ({
   
   
   </CustomBox>
-  
+  <Install />
 
   
   </>
