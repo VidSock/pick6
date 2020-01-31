@@ -48,14 +48,7 @@ const CustomBox = styled.div`
 }
 
 
-iframe:before{
-  content: " poop ";
-position:absolute;
-display: flex;
-align-items: center;
-justify-content: center;
-top:0 !important;
-}
+
 
 
 @media (min-width: 48em) {
@@ -79,6 +72,8 @@ top:0 !important;
   .split div{max-width:100% !important; background:tranparent !important;}
   .sidebar{margin:2rem 0;}
   .sidebar .logolink{text-align:center !important;}
+  
+  
 }
 
 
