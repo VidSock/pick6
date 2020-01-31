@@ -68,7 +68,7 @@ const Footer = class extends React.Component {
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', marginTop:'.5rem'}}>
 <li className="genesis">Genesis Open<br /><br />February<br /> 13 - 16<br /><br />@ Pacific Palisades</li>
 <li className="anainpration">ANA Inspiration<br /><br />April<br /> 4 - 7<br /><br />@ Rancho Mirage</li>
-<li className="memorial">The Memorial<br /><br />May 30 -<br /> June 2<br /><br />@ Pacific Palisades</li>
+<li className="memorial">The Memorial<br /><br />May 30 -<br /> June 2<br /><br />@ Dublin</li>
 <li className="senior">Senior Open<br /><br />July<br /> 25 - 28<br /><br />@ Newport</li>
 <li className="northern">Northern Trust<br /><br />August<br /> 8 - 11<br /><br />@ Norton</li>
 </ul>
