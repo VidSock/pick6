@@ -118,7 +118,7 @@ const HomePageTemplate = ({
 
 
 
-<ScrollAnimation animateIn="fadeIn">
+
 <div className="outer">
   
 <div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'0', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
@@ -167,7 +167,7 @@ const HomePageTemplate = ({
         
 
 <div className="" style={{position:'fixed', top:'0', width:'100vw', overflow:'hidden', border:'0px solid red', zIndex:'-1',}}>
-<ScrollAnimation animateIn="fadeIn">
+<ScrollAnimation animateIn="fadeIn" animateOut="fadeOut" animateOnce={false} delay={100}>
 <div id="slideshow">
   <div className="slide-wrapper"  style={{position:'relative', zIndex:'0',}}>
   
@@ -194,7 +194,7 @@ const HomePageTemplate = ({
 
 </div>
 </div>
-</ScrollAnimation>
+
 
 
 
