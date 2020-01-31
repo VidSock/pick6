@@ -244,7 +244,7 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 
 <div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px'}}>
-<iframe  width="100%" height="350" frameBorder="0" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
+<iframe title="top 90 golfers" width="100%" height="350" frameBorder="0" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
 </div> 
 
 

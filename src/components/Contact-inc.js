@@ -126,7 +126,7 @@ Pick 6 Golfers
                 <div className="field half left">
                 
               
-                    <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 1:</label>
+                    <label htmlFor="golfer1" style={{padding: '0', margin: '0',}}>Golfer 1:</label>
               <input
                 className="input"
                 type={'text'}
@@ -137,7 +137,7 @@ Pick 6 Golfers
                 placeholder="Golfer 1"
               />
               
-               <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 2:</label>
+               <label htmlFor="golfer2" style={{padding: '0', margin: '0',}}>Golfer 2:</label>
                  <input
                    className="input"
                    type={'text'}
@@ -148,7 +148,7 @@ Pick 6 Golfers
                    placeholder="Golfer 2"
                  />
               
-               <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 3:</label>
+               <label htmlFor="golfer3" style={{padding: '0', margin: '0',}}>Golfer 3:</label>
               <input
                 className="input"
                 type={'text'}
@@ -165,7 +165,7 @@ Pick 6 Golfers
                   
                   
                   
- <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 4:</label>
+                  <label htmlFor="golfer4" style={{padding: '0', margin: '0',}}>Golfer 4:</label>
                   <input
                     className="input"
                     type={'text'}
@@ -177,7 +177,7 @@ Pick 6 Golfers
                   />
                     
                     
-                     <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 5:</label>
+                     <label htmlFor="golfer5" style={{padding: '0', margin: '0',}}>Golfer 5:</label>
                     <input
                       className="input"
                       type={'text'}
@@ -188,7 +188,7 @@ Pick 6 Golfers
                       placeholder="Golfer 5"
                     />
                     
-                     <label htmlFor="name" style={{padding: '0', margin: '0',}}>Golfer 6:</label>
+                     <label htmlFor="golfer6" style={{padding: '0', margin: '0',}}>Golfer 6:</label>
                     <input
                       className="input"
                       type={'text'}
@@ -205,7 +205,7 @@ Pick 6 Golfers
                 
                 
                 <div className="form field picka" style={{marginRight:'20px', display:'block', padding:'0 20%',}}>
-                <label htmlFor="name" style={{padding: '0', margin: '0',}}>Pick-A-Player:</label>
+                <label htmlFor="pickaplayer" style={{padding: '0', margin: '0',}}>Pick-A-Player:</label>
                    <input
                      className="input"
                      type={'text'}
