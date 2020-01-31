@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
-import logo from '../../img/pick6golf-logo-square.svg'
+import logo from '../../img/pick6golf-final.svg'
 import Install from '../Install'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
@@ -116,13 +116,15 @@ const HomePageTemplate = ({
 {/* <Intro2 /> */}
 {/* <Intro3 /> */}
 
+
+
 <ScrollAnimation animateIn="fadeIn">
 <div className="outer">
   
 <div className="image-wrap" style={{position:'relative', overflow:'hidden', paddingTop:'0', borderBottom:'0px solid #222', borderRight:'0rem solid #dd4400', borderLeft:'0rem solid #dd4400', }}>
   
 
- <div className="" style={{position:'absolute', top:'0px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'1',}}>
+ <div className="" style={{position:'absolute', top:'60px', left:'0', width:'100vw', height:'100vh', overflow:'hidden', padding:'20px 0 0 0', border:'0px solid red', zIndex:'1',}}>
   
   
 
@@ -137,23 +139,74 @@ const HomePageTemplate = ({
      <img className="logo" src={logo} alt="Pick 6 Logo" style={{maxHeight:'300px'}} />
      </div>
     </ScrollAnimation>
+        
+        
+  <ScrollAnimation animateIn="bounceInUp" delay={2050} style={{position:'', top:'0', right:'0',}}>
+        <h3
+          className="boom4 txtshadow-header mobile-txt"
+          style={{
+           color: 'white',
+            textAlign: 'center',
+            textTransform: 'normal', 
+          }}
+        >
+        a charity tournament
+        </h3>
+        </ScrollAnimation>
 
-    
-    
-    </div>
-    
-    
-    
+
+        
 
 
- 
-    
-    
+
+
+        
+        </div>
+        
+        
+        
+
+<div className="" style={{position:'fixed', top:'0', width:'100vw', overflow:'hidden', border:'0px solid red', zIndex:'-1',}}>
+<ScrollAnimation animateIn="fadeIn">
+<div id="slideshow">
+  <div className="slide-wrapper"  style={{position:'relative', zIndex:'0',}}>
   
+   
+   
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="Augusta_National_Golf_Club,_Hole_10_(Camellia)_-_cropped.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="st-andrews.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="1600px-Pebble_Beach_Golf_Links_01.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    
+
+    
+
+   
+  </div>
+</div>
+</ScrollAnimation>
+        </div>
+        
+        
+        
+    
 
 </div>
 </div>
 </ScrollAnimation>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
