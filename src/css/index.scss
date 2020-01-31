@@ -12,6 +12,7 @@ $red: #ff0000;
 #herohead .headroom-wrapper{height:0 !important; position:relative;}
 #slideshow img{filter:grayscale(100%);}
 
+
 /* Box sizing rules */
 *,
 *::before,
@@ -970,9 +971,11 @@ body{font-size:16px;}
 
 .picka{ padding:0 0 !important; margin-right:0 !important;}
 input.special{ padding: .5rem 3rem !important; margin:0 auto !important;}
-
 input:matches([type="checkbox"]){color:#ff0000 !important;}
 
+.socialmenu{font-size:80% !important;}
+  
+  
 .outer .innerpanel{padding:0 20px 0 20px !important;}
 
 .half {
@@ -1109,6 +1112,10 @@ body.light #blogroll{background-color:transparent !important;}
 .media h2{font-size:2.7rem;}
 .media h3{font-size:2.2rem;}	
 	
+  
+
+  
+  
   .header ul li{display:flex; margin-right:0rem;}
   
 .header ul li:first-child{border-top:0px solid; margin-top:0; }

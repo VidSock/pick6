@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout-noc'
-import logo from '../img/pick6golf-logo-square.svg'
+import logo from '../img/pick6golf.svg'
 import { Link } from 'gatsby'
 
 const Terms = () => (
@@ -13,7 +13,7 @@ const Terms = () => (
 
 <div style={{display:'flex', justifyContent:'center', alignItems:'center',}}>
 <Link to="/" className="logolink" title="Logo - Back To Home">
-    <img style={{}} className="logo fadeInDown" src={logo} alt="Twilightscapes Logo" /><br />
+    <img style={{}} className="logo fadeInDown" src={logo} alt="Pick 6 Logo" /><br />
     Return to Home
     </Link>
 </div>

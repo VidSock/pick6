@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Pick 6 Golf | Pick your best 6 golfers', // Site title.
   siteTitleAlt: 'Pick 6 Golf', // Alternative site title for SEO.
-  siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
+  siteLogo: '/icons/manifest-icon-512x512.png', // Logo used for SEO and manifest.
   siteUrl: 'https://pick6golf.com', // Domain of your website without pathPrefix.
   pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
   siteDescription: 'Picking the top 6 PGA golfers', // Website description used for RSS feeds/meta description tag.
