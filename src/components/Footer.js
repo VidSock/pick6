@@ -54,11 +54,21 @@ const Footer = class extends React.Component {
 <h2 style={{textAlign:'center', margin:'0 0 1rem 0',}}>2020 Tournaments</h2>
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', margin:''}}>
 
-<li className="players">The Players<br /><br />March<br /> 14 - 17<br /><br />@ Ponte Vedra Beach</li>
-<li className="masters">The Masters<br /><br />April<br /> 11 - 14<br /><br />@ Augusta</li>
-<li className="pga">The PGA<br /><br />May<br /> 16 - 19<br /><br />@ Bethpage</li>
-<li className="usopen">The U.S. Open<br /><br />June<br /> 13 - 16<br /><br />@ Pebble Beach</li>
-<li className="theopen">The Open<br /><br />July<br /> 18 - 21<br /><br />@ Portrush</li>
+<li className="honda">Honda Classic<br /><br />Feb 27 -<br /> March 1<br /><br />@ PGA National</li>
+
+
+<li className="players">The Players<br /><br />March<br /> 12 - 15<br /><br />@ TPC Sawgrass</li>
+
+<li className="anainpration">ANA Inspiration<br /><br />April<br /> 2 - 5<br /><br />@ Mission Hills</li>
+
+<li className="masters">The Masters<br /><br />April<br /> 9 - 12<br /><br />@ Augusta</li>
+
+
+<li className="pga">The PGA<br /><br />May<br /> 14 - 17<br /><br />@ TPC Harding Park</li>
+
+
+
+
 
 
 
@@ -66,11 +76,17 @@ const Footer = class extends React.Component {
 </ul>
 
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', marginTop:'.5rem'}}>
-<li className="genesis">Genesis Open<br /><br />February<br /> 13 - 16<br /><br />@ Pacific Palisades</li>
-<li className="anainpration">ANA Inspiration<br /><br />April<br /> 4 - 7<br /><br />@ Rancho Mirage</li>
-<li className="memorial">The Memorial<br /><br />May 30 -<br /> June 2<br /><br />@ Dublin</li>
-<li className="senior">Senior Open<br /><br />July<br /> 25 - 28<br /><br />@ Newport</li>
-<li className="northern">Northern Trust<br /><br />August<br /> 8 - 11<br /><br />@ Norton</li>
+
+<li className="memorial">The Memorial<br /><br />June<br /> 4 - 7< br /><br /><br />@ Muirfield</li>
+
+<li className="usopen">The U.S. Open<br /><br />June<br /> 18 - 21<br /><br />@ Winged Foot</li>
+
+
+<li className="theopen">The Open<br /><br />July<br /> 16 - 19<br /><br />@ Royal St. George</li>
+
+<li className="senior">Senior British Open<br /><br />July<br /> 23 - 26<br /><br />@ Sunningdale</li>
+
+<li className="northern">Northern Trust<br /><br />August<br /> 13 - 16<br /><br />@ TPC Boston</li>
 </ul>
 
 <br />
