@@ -1,8 +1,17 @@
 ---
 templateKey: home-page
-title: First Tournament of the Season
-heading: The Masters is here
-description: 'Welcome to the all-new Pick 6 Golf website. '
+title: 'First Tournament '
+heading: The Ma
+description: >-
+  \“Operation Gratitude sends 250,000+ individually addressed care packages to
+  Soldiers, Sailors, Airmen and Marines deployed overseas, to their children
+  left         behind, and to New Recruit Graduates, Veterans, First Responders,
+  and Wounded Heroes and their Caregivers.  Each package contains food, hygiene,
+  entertainment and handmade items, as well as personal letters of support. A
+  Care Package brings joy to a Service Member stationed far from home or enables
+  a Veteran to feel appreciated -- many for the first time. Our Care Packages
+  for Wounded Heroes and Caregivers let them know that they are seen and that
+  their great sacrifices for us are honored.”
 offerings:
   blurbs:
     - image: /img/coda-sass-wordpress-1600x339.jpg
