@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
-title: First Tournament of the Season
-heading: The Masters is here
+title: 'First Tournament '
+heading: The Ma
 description: 'Welcome to the all-new Pick 6 Golf website. '
 offerings:
   blurbs:
