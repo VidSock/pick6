@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
 title: 'Operation Gratitude '
-heading: Our 2020 Charity
+heading: Supporting Our Veterans
 description: >-
   Operation Gratitude sends 250,000+ individually addressed care packages to
   Soldiers, Sailors, Airmen and Marines deployed overseas, to their children
