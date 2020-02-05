@@ -1,7 +1,7 @@
 ---
 templateKey: home-page
-title: 'First Tournament '
-heading: The Ma
+title: 'Operation Gratitude '
+heading: Our 2020 Charity
 description: >-
   Operation Gratitude sends 250,000+ individually addressed care packages to
   Soldiers, Sailors, Airmen and Marines deployed overseas, to their children
