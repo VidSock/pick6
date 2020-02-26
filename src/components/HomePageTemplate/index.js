@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import logo from '../../img/pick6golf-final.svg'
-import Install from '../Install'
+// import Install from '../Install'
 import Helmet from 'react-helmet'
 import Offerings from '../Offerings'
 import Testimonials from '../Testimonials'
@@ -168,11 +168,11 @@ const HomePageTemplate = ({
   
    
    
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="Augusta_National_Golf_Club,_Hole_10_(Camellia)_-_cropped.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Stars" filename="masters.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="st-andrews.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Camp" filename="andrews.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
-    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="1600px-Pebble_Beach_Golf_Links_01.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
+    <div className="slide" style={{zIndex:'',}}><Image className="slider" alt="Todd Mushroom" filename="pebble.jpg" style={{backgroundSize:'cover', zIndex:'', }} /></div>
     
 
     
@@ -243,8 +243,159 @@ const HomePageTemplate = ({
 
 
 
-<div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px'}}>
-<iframe title="top 90 golfers" width="100%" height="350" frameBorder="0" src="https://www.tourbrassie.com/widget/index?type=index&showlogo=0&showfacebook=0&bgcolor=&width=100&height=&widthsetting=custom&unit=percent&layout=table&country=&displayplayersby=country&playerlist=&showcountry=1&showaveragepoints=0&showtotalpoints=0&showsponsor=1&tour=pga-tour&limit=90"></iframe>
+<div className='container innerpanel' style={{width:'', margin:'0 auto', background:'#fff', borderRadius:'12px', color:'#111', textAlign:'center'}}>
+ 
+<h4>The Field: (a-z)</h4>
+<div style={{width:'auto', padding:'10px 20%', height:'350px', overflow:'scroll', color:'#111',}}>
+
+An, Byeong Hun
+
+Ancer, Abraham
+
+Bezuidenhout, Christiaan
+
+Cabrera Bello, Rafa
+
+Campillo, Jorge
+
+Casey, Paul
+
+Conners, Corey
+
+DeChambeau, Bryson
+
+Fitzpatrick, Matthew
+
+Fleetwood, Tommy
+
+Fox, Ryan
+
+Garcia, Sergio
+
+Glover, Lucas
+
+Grace, Branden
+
+Griffin, Lanto
+
+Harding, Justin
+
+Hatton, Tyrrell
+
+Hebert, Benjamin
+
+Hend, Scott
+
+Herbert, Lucas
+
+Horschel, Billy
+
+Howell III, Charles
+
+Im, Sungjae
+
+Imahira, Shugo
+
+Ishikawa, Ryo
+
+Janewattananond, Jazz
+
+Johnson, Dustin
+
+Kang, Sung
+
+Kinhult, Marcus
+
+Kisner, Kevin
+
+Kitayama, Kurt
+
+Kokrak, Jason
+
+Kuchar, Matt
+
+Larrazabal, Pablo
+
+Lee, Tae Hee
+
+Leishman, Marc
+
+Lombard, Zander
+
+Lorenzo-Vera, Michael
+
+Lowry, Shane
+
+MacIntyre, Robert
+
+Matsuyama, Hideki
+
+McDowell, Graeme
+
+McIlroy, Rory
+
+Molinari, Francesco
+
+Morikawa, Collin
+
+Murray, Zach
+
+Muñoz, Sebastián
+
+Na, Kevin
+
+Norris, Shaun
+
+Oosthuizen, Louis
+
+Ortiz, Carlos
+
+Perez, Victor
+
+Rahm, Jon
+
+Reavie, Chez
+
+Reed, Patrick
+
+Schauffele, Xander
+
+Scheffler, Scottie
+
+Schwab, Matthias
+
+Scott, Adam
+
+Simpson, Webb
+
+Smith, Cameron
+
+Snedeker, Brandt
+
+Spieth, Jordan
+
+Thomas, Justin
+
+Todd, Brendon
+
+van Rooyen, Erik
+
+Wallace, Matt
+
+Watson, Bubba
+
+Westwood, Lee
+
+Wiesberger, Bernd
+
+Willett, Danny
+
+Woodland, Gary
+
+</div>
+
+
+
 </div> 
 
 
@@ -273,7 +424,7 @@ const HomePageTemplate = ({
   
   
   </CustomBox>
-  <Install />
+  
 
   
   </>
