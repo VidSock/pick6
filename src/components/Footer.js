@@ -3,7 +3,19 @@ import { Link } from 'gatsby'
 import { FaFacebookSquare, FaLinkedin, FaTwitterSquare, FaInstagram, FaPinterestSquare, FaYoutubeSquare } from 'react-icons/fa'
 import ScrollAnimation from 'react-animate-on-scroll'
 
+import styled from 'styled-components'
 
+const CustomBox = styled.div`
+.players{color:#C82C10 !important;}
+.honda{color:#666;}
+
+.honda:before{
+position: absolute; top: 30px; left: 0px; width: 100%; border-bottom-width: 12px; border-bottom-style: solid; transform: rotate(8deg); text-align: center; font-size: 450%; z-index: 1;
+
+}
+
+
+`
 /*
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
@@ -41,6 +53,9 @@ var pga = new Date(2020,4, 19);
 const Footer = class extends React.Component {
   render() {
     return (
+      
+       <CustomBox>
+       
 	    <ScrollAnimation animateIn="fadeIn" duration={2} initiallyVisible={false} animateOnce={true} animatePreScroll={false}>
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
@@ -97,8 +112,10 @@ const Footer = class extends React.Component {
 
 {/* <div style={{textAlign: 'center', margin: '0 0 1rem 0', justifyContent: 'center', fontSize: '70%'}}>Copyright &copy; {(new Date().getFullYear())}</div> */}
         </div>
+        
       </footer>
       </ScrollAnimation>
+       </CustomBox>
     )
   }
 }
