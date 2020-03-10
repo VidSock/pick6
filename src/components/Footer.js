@@ -92,7 +92,7 @@ const Footer = class extends React.Component {
 
 <ul className="socialmenu" style={{textAlign:'center', justifyContent:'center', marginTop:'.5rem'}}>
 
-<li className="memorial">The Memorial<br /><br />June<br /> 4 - 7< br /><br /><br />@ Muirfield</li>
+<li className="memorial">The Memorial<br /><br />June<br /> 4 - 7< br /><br />@ Muirfield</li>
 
 <li className="usopen">The U.S. Open<br /><br />June<br /> 18 - 21<br /><br />@ Winged Foot</li>
 
